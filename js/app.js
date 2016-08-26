@@ -42,6 +42,9 @@ $(document).keydown(function() {
       $('.ryu-cool').show();
   })  
            .keyup(function() {
+      $('.ryu-cool').hide();
       $('.ryu-still').show();
-      $('.ryu-cool').hide()
-      ;})
+    })
+      $(88).click(function(){
+      $(document).keydown();
+    });
